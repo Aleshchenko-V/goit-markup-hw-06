@@ -552,17 +552,8 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" data-modal-close>
-          <svg
-            class="close-cross"
-            width="11"
-            height="11"
-            viewBox="0 0 11 11"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
-            />
+          <svg class="close-cross">
+            <use href="./images/icons.svg#icon-cross"></use>
           </svg>
         </button>
         <form class="form-callback">
@@ -598,11 +589,10 @@
               class="checkbox-agree"
               type="checkbox"
               name="check-agreement"
-              checked
             />
+            <span class="check-box"></span>
             Соглашаюсь с рассылкой и принимаю
             <a class="agreement-link" href=""> Условия договора</a>
-            <span class="check-box"> </span>
           </label>
           <button class="button-send" type="submit">Отправить</button>
         </form>
