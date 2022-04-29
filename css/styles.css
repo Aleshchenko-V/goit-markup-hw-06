@@ -821,7 +821,7 @@ figure {
 }
 
 .agreement {
-  position: relative;
+  /*position: relative;*/
   font-size: 14px;
   line-height: 24px;
 }
@@ -837,11 +837,14 @@ figure {
 }
 
 .check-box {
-  position: absolute;
+  display: inline-block;
+  /*position: absolute;
   top: 0px;
-  left: -10px;
+  left: -10px;*/
   width: 16px;
   height: 15px;
+  margin-right: 4px;
+  margin-bottom: -2px;
   background-image: url("../images/check.svg");
 }
 
